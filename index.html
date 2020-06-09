@@ -38,16 +38,29 @@
 
   <main>
 
-      <section>
+      <section class="hero-area">
+        <div class="content-wrapper">
         <h1>Retreat from the desk, return refreshed.</h1>
+        </div>
+      </section>
+
         <div class="hero-image"><img src="img/hero-image.jpg" alt="camping woman" /></div>
       </section>
 
       <aside>
-        <div class="signup-form">
-          <input type="text" name="name" value="email address">
-          <input type="button" value="Download Itinerary">
-        </div>
+        <div class="content-wrapper">
+          <div class="form-description">
+            <h3>Want to join the next retreat?</h3>
+            <p>
+              Find out when we are holding our next retreat and how your company or team can sign up!
+            </p>
+          </div>
+          <div class="form">
+            <h3>Find out more</h3>
+            <input type="text" name="name" value="name@email.com">
+            <input type="button" value="Download Itinerary">
+          </div>
+        </div> <!-- aside content wrapper ends -->
       </aside>
 
       <section>
@@ -63,34 +76,37 @@
 
   <footer>
     <div class="content-wrapper">
-            <div class="footer-content">
+        <div class="footer-content">
+          <address class="contact">
+            <h4>Contact</h4>
+            <p>555-555-5555<br>
+            hello@unplugged.com
+            </p>
+          </address>
 
+        <div class="social-icons">
+          <p>
+            <a href="https://www.facebook.com/Skillcrush/" target="_blank"></a>
+          </p>
+          <p>
+            <a href="https://twitter.com/Skillcrush" target="_blank"></a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/skillcrush/" target="_blank"></a>
+          </p>
+        </div>
+      </div>
+    </div> <!-- footer content ends -->
+  </div>
             <h1>Be a better team in 5 days, like these.</h1>
             <h2>LaCrue Bottling Co.<br></h2>
               <h2>October 2017</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 
-              <h2>Contact</h2>
-              <h3>555-555-5555</h3>
-              <h3>hello@unplugged.com</h3>
-              <address class="contact">
-
-              </address>
-            </div>
-                <div class="social">
-                  <h2>Social</h2>
-                    <div class="social-icons">
-                        <p><a href="https://www.facebook.com/yoursite" target="_blank"></a></p>
-                        <!-- other social links here -->
-                    </div>
-                </div>
-            </div> <!-- footer content ends -->
-        </div> <!--footer content-wrapper ends-->
-
-        <div class="copyright">
-            <h3>Copyright 2019 | Unplugged</h3>
-        </div>
-  </footer>
+  <div class="copyright">
+      <p>Copyright 2018 | Unplugged</p>
+  </div>
+</footer>
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
